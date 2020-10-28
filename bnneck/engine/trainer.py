@@ -12,7 +12,7 @@ from ignite.engine import Engine, Events
 from ignite.handlers import ModelCheckpoint, Timer
 from ignite.metrics import RunningAverage
 
-from utils.reid_metric import R1_mAP
+from bnneck.utils.reid_metric import R1_mAP
 
 global ITER
 ITER = 0
